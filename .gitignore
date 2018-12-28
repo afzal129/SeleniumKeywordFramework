@@ -1,0 +1,40 @@
+
+# This is a comment
+# Ignore target at the top level
+
+/TestResult/
+# Ignore child project's targets as well
+/*/bin/
+# And any grandchildren ...
+/*/*/bin/
+# Or you can do:
+# which matches 'target' in any sub folder
+# This is a comment
+# Ignore target at the top level
+/obj/
+# Ignore child project's targets as well
+/*/obj/
+# And any grandchildren ...
+/*/*/obj/
+# Or you can do:
+obj/   
+*.db
+# which matches 'target' in any sub folder
+/*/bower_components
+/*/node_modules 
+node_modules
+test
+/target
+target
+/*/target
+/*/target/
+
+sojrestaurantandroid/
+
+Document/ 
+/Document/
+
+lib/
+/*/lib/
+/*/lib
+ 
